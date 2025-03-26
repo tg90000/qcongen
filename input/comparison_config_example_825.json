@@ -1,0 +1,18 @@
+{
+    "n_instances": 100,
+    "t": 0.1,
+    "max_iters": 1000,
+    "base_instance": {
+        "input_type": "random",
+        "sample_size": 500,
+        "random_instance": {
+            "n_sets": 8,
+            "n_elements": 25,
+            "min_set_size": 1,
+            "max_set_size": 12,
+            "min_cost": 1,
+            "max_cost": 100,
+            "instance_name": "random"
+        }
+    }
+} 

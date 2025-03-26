@@ -1,0 +1,65 @@
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 1000
+Added all constraints
+No feasible solution found
+  QAOA solver found no feasible solution
+
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0]
+    Value: 166.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 1000
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  Added 9 new constraints: [3, 6, 7, 13, 22, 23, 24, 25, 29]
+
+Iteration 1:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  No new constraints added, lowered tau multiplier: 0.7 -> 0.6
+  No new constraints added, lowered tau multiplier: 0.6 -> 0.5
+  No new constraints added, lowered tau multiplier: 0.5 -> 0.4
+  Added 31 new constraints: [0, 1, 2, 4, 5, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+
+Iteration 2:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  All constraints added, exiting
+  Constraint generation found no feasible solution
+
+Instance 69 results:
+  Classical value: 166.0
+  QAOA value: 0.0
+  Constraint generation value: 0.0
+
+Running instance 70/100
+
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0]
+    Value: 168.0
+
+Running QAOA Reference Solution (with all constraints):

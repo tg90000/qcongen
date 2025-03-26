@@ -1,0 +1,26 @@
+
+Problem information:
+  Number of variables (n): 15
+  Number of constraints (m): 20
+Starting constraint generation with parameters:
+  sample_size (total shots): 1000
+  tau: 0.0
+  max_iters: 1000
+
+Iteration 0:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [6]
+
+Iteration 1:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [11]
+
+Iteration 2:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [18]
+
+Iteration 3:
+Found feasible solution: [0 0 0 0 0 0 0 0 0 0 0 0 1 1 1] with objective value 240.0
+  Found feasible solution:
+    Solution: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+    Value: 240.0

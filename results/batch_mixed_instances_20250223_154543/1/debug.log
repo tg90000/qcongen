@@ -1,0 +1,19 @@
+2025-02-23 15:45:43,383 - INFO - 
+Problem information:
+2025-02-23 15:45:43,384 - INFO -   Number of variables (n): 15
+2025-02-23 15:45:43,384 - INFO -   Number of constraints (m): 25
+2025-02-23 15:45:43,384 - DEBUG -   Density of A: 24.27%
+2025-02-23 15:45:43,384 - INFO - 
+Running classical reference solver:
+2025-02-23 15:45:43,394 - INFO -   Reference solution found:
+2025-02-23 15:45:43,395 - INFO -     Solution: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0]
+2025-02-23 15:45:43,395 - INFO -     Value: 99.0
+2025-02-23 15:45:43,395 - INFO - 
+Starting quantum constraint generation with parameters:
+2025-02-23 15:45:43,395 - INFO -   sample_size (total shots): 100
+2025-02-23 15:45:43,395 - INFO -   tau: 0.0
+2025-02-23 15:45:43,395 - INFO -   max_iters: 1000
+2025-02-23 15:45:43,395 - INFO - 
+Iteration 0:
+2025-02-23 15:45:43,395 - DEBUG - Generated Ising Hamiltonian
+2025-02-23 15:45:43,398 - DEBUG - Optimizing QAOA circuit...

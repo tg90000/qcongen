@@ -1,0 +1,42 @@
+
+Problem information:
+  Number of variables (n): 15
+  Number of constraints (m): 50
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1]
+    Value: 368.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 100
+  tau: 0.0
+  max_iters: 1000
+
+Iteration 0:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [12]
+
+Iteration 1:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [36]
+
+Iteration 2:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [6]
+
+Iteration 3:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  Added 3 new constraints: [0, 25, 40]
+
+Iteration 4:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [11]
+
+Iteration 5:
+Found feasible solution: [0 1 0 0 1 0 0 1 0 1 0 1 0 1 1] with objective value 368.0
+  Found feasible solution:
+    Solution: [0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1]
+    Value: 368.0
+    Gap to reference: 0.00%

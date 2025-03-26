@@ -1,0 +1,8 @@
+
+Problem information:
+  Number of variables (n): 15
+  Number of constraints (m): 20
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 100
+Added all constraints

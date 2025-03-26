@@ -1,0 +1,63 @@
+2025-02-10 13:47:11,023 - INFO - 
+Problem information:
+2025-02-10 13:47:11,024 - INFO -   Number of variables (n): 10
+2025-02-10 13:47:11,024 - INFO -   Number of constraints (m): 40
+2025-02-10 13:47:11,024 - DEBUG -   Density of A: 20.00%
+2025-02-10 13:47:11,024 - INFO - Starting constraint generation with parameters:
+2025-02-10 13:47:11,024 - INFO -   sample_size (total shots): 1000
+2025-02-10 13:47:11,024 - INFO -   tau: 0.0
+2025-02-10 13:47:11,024 - INFO -   max_iters: 1000
+2025-02-10 13:47:11,024 - INFO - 
+Iteration 0:
+2025-02-10 13:47:11,025 - DEBUG - Generated Ising Hamiltonian
+2025-02-10 13:47:11,185 - DEBUG - Optimizing QAOA circuit...
+2025-02-10 13:47:12,291 - DEBUG - Circuit optimization successful, final value: -40.03996003996005
+2025-02-10 13:47:12,292 - DEBUG - Sampling from optimized circuit...
+2025-02-10 13:47:12,306 - DEBUG - Generated 68 unique samples from 1000 total measurements
+2025-02-10 13:47:12,308 - INFO -   No feasible solution found in this iteration
+2025-02-10 13:47:12,308 - INFO -   Added 2 new constraints: [2, 3]
+2025-02-10 13:47:12,309 - INFO - 
+Iteration 1:
+2025-02-10 13:47:12,309 - DEBUG - Generated Ising Hamiltonian
+2025-02-10 13:47:12,529 - DEBUG - Optimizing QAOA circuit...
+2025-02-10 13:47:13,290 - DEBUG - Circuit optimization successful, final value: -77.43456543456543
+2025-02-10 13:47:13,291 - DEBUG - Sampling from optimized circuit...
+2025-02-10 13:47:13,304 - DEBUG - Generated 157 unique samples from 1000 total measurements
+2025-02-10 13:47:13,306 - INFO -   No feasible solution found in this iteration
+2025-02-10 13:47:13,306 - INFO -   No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+2025-02-10 13:47:13,306 - INFO -   No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+2025-02-10 13:47:13,306 - INFO -   Added 2 new constraints: [36, 37]
+2025-02-10 13:47:13,306 - INFO - 
+Iteration 2:
+2025-02-10 13:47:13,307 - DEBUG - Generated Ising Hamiltonian
+2025-02-10 13:47:13,461 - DEBUG - Optimizing QAOA circuit...
+2025-02-10 13:47:14,161 - DEBUG - Circuit optimization successful, final value: -86.76923076923075
+2025-02-10 13:47:14,161 - DEBUG - Sampling from optimized circuit...
+2025-02-10 13:47:14,175 - DEBUG - Generated 212 unique samples from 1000 total measurements
+2025-02-10 13:47:14,178 - INFO -   No feasible solution found in this iteration
+2025-02-10 13:47:14,179 - INFO -   No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+2025-02-10 13:47:14,179 - INFO -   No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+2025-02-10 13:47:14,179 - INFO -   Added 5 new constraints: [5, 6, 7, 11, 12]
+2025-02-10 13:47:14,179 - INFO - 
+Iteration 3:
+2025-02-10 13:47:14,180 - DEBUG - Generated Ising Hamiltonian
+2025-02-10 13:47:14,336 - DEBUG - Optimizing QAOA circuit...
+2025-02-10 13:47:15,280 - DEBUG - Circuit optimization successful, final value: -108.26573426573428
+2025-02-10 13:47:15,280 - DEBUG - Sampling from optimized circuit...
+2025-02-10 13:47:15,297 - DEBUG - Generated 330 unique samples from 1000 total measurements
+2025-02-10 13:47:15,301 - INFO -   No feasible solution found in this iteration
+2025-02-10 13:47:15,302 - INFO -   No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+2025-02-10 13:47:15,302 - INFO -   No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+2025-02-10 13:47:15,302 - INFO -   Added 24 new constraints: [4, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+2025-02-10 13:47:15,303 - INFO - 
+Iteration 4:
+2025-02-10 13:47:15,303 - DEBUG - Generated Ising Hamiltonian
+2025-02-10 13:47:15,541 - DEBUG - Optimizing QAOA circuit...
+2025-02-10 13:47:17,077 - DEBUG - Circuit optimization successful, final value: 54.42757242757243
+2025-02-10 13:47:17,077 - DEBUG - Sampling from optimized circuit...
+2025-02-10 13:47:17,107 - DEBUG - Generated 468 unique samples from 1000 total measurements
+2025-02-10 13:47:17,110 - INFO - Found feasible solution: [0 0 0 0 0 1 1 1 1 1] with objective value 25.0
+2025-02-10 13:47:17,112 - INFO - Found feasible solution: [1 1 1 1 1 0 0 0 0 0] with objective value 31.0
+2025-02-10 13:47:17,116 - INFO -   Found feasible solution:
+2025-02-10 13:47:17,116 - INFO -     Solution: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+2025-02-10 13:47:17,117 - INFO -     Value: 25.0

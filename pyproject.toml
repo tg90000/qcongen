@@ -1,0 +1,103 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qcongen"
+description = "Quantum Constraint Generation Algorithm"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = ["quantum", "optimization", "constraint-generation"]
+authors = [
+    { name = "András Czégel", email = "czegel@inf.u-szeged.hu" }
+]
+dependencies = [
+    "numpy>=2.2.2",
+    "python-dotenv>=1.0.0",
+    "qiskit>=1.3",
+    "qiskit-aer>=0.15.0",
+    "qiskit-ibm-runtime>=0.34.0",
+    "ortools>=9.11",
+    "matplotlib>=3.10.0",
+    "plotly>=6.0.0",
+    "pandas>=2.2.0",
+]
+dynamic = ["version"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.scripts]
+qcongen = "qcongen.cli:main"
+
+[tool.hatch.version]
+path = "src/qcongen/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/qcongen"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"src/qcongen/py.typed" = "qcongen/py.typed"
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "pytest --cov=qcongen {args:tests}"
+
+[tool.hatch.envs.lint]
+dependencies = [
+    "black>=25.1.0",
+    "ruff>=0.9.4",
+    "mypy>=1.14.1",
+]
+
+[tool.hatch.envs.lint.scripts]
+typing = "mypy src/qcongen"
+style = [
+    "ruff check src/qcongen tests",
+    "black --check src/qcongen tests",
+]
+fmt = [
+    "black src/qcongen",
+    "ruff check --fix src/qcongen",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[project.urls]
+Homepage = "https://github.com/yourusername/qcongen"
+Documentation = "https://github.com/yourusername/qcongen#readme"
+Repository = "https://github.com/yourusername/qcongen.git" 

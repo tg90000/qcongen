@@ -1,0 +1,11 @@
+2025-02-24 14:03:51,045 - INFO - 
+Problem information:
+2025-02-24 14:03:51,045 - INFO -   Number of variables (n): 15
+2025-02-24 14:03:51,045 - INFO -   Number of constraints (m): 50
+2025-02-24 14:03:51,045 - DEBUG -   Density of A: 20.00%
+2025-02-24 14:03:51,046 - INFO - 
+Starting reference QAOA with parameters:
+2025-02-24 14:03:51,046 - INFO -   sample_size (total shots): 2000
+2025-02-24 14:03:51,046 - INFO - Added all constraints
+2025-02-24 14:03:51,046 - DEBUG - Generated Ising Hamiltonian
+2025-02-24 14:03:51,281 - DEBUG - Optimizing QAOA circuit...

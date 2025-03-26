@@ -1,0 +1,55 @@
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 1000
+Added all constraints
+Found feasible solution: [1 1 1 1 1 0 1 1 1 0 0 0] with objective value 423.0
+Found feasible solution:
+  Solution: [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+  Value: 423.0
+  QAOA solution found:
+    Solution: [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+    Value: 423.0
+
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1]
+    Value: 234.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 1000
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+Found feasible solution: [1 1 1 1 1 0 1 1 1 0 0 0] with objective value 423.0
+  Found feasible solution:
+    Solution: [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+    Value: 423.0
+    Gap to reference: 80.77%
+  Constraint generation solution found:
+    Solution: [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+    Value: 423.0
+
+Instance 43 results:
+  Classical value: 234.0
+  QAOA value: 423.0
+  Constraint generation value: 423.0
+
+Running instance 44/100
+
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+    Value: 75.99999999999997
+
+Running QAOA Reference Solution (with all constraints):

@@ -1,0 +1,118 @@
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 200
+Added all constraints
+No feasible solution found
+  QAOA solver found no feasible solution
+
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [0, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+    Value: 168.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 200
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [12]
+
+Iteration 1:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [0]
+
+Iteration 2:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [4]
+
+Iteration 3:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  Added 1 new constraints: [16]
+
+Iteration 4:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  Added 1 new constraints: [18]
+
+Iteration 5:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  Added 4 new constraints: [2, 15, 22, 29]
+
+Iteration 6:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  Added 2 new constraints: [5, 13]
+
+Iteration 7:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [17]
+
+Iteration 8:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  Added 2 new constraints: [19, 27]
+
+Iteration 9:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  Added 1 new constraints: [11]
+
+Iteration 10:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  Added 6 new constraints: [1, 8, 10, 14, 23, 28]
+
+Iteration 11:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  No new constraints added, lowered tau multiplier: 0.7 -> 0.6
+  No new constraints added, lowered tau multiplier: 0.6 -> 0.5
+  Added 6 new constraints: [3, 20, 21, 24, 25, 26]
+
+Iteration 12:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  Added 3 new constraints: [6, 7, 9]
+
+Iteration 13:
+  No feasible solution found in this iteration
+  All constraints added, exiting
+  Constraint generation found no feasible solution
+
+Instance 11 results:
+  Classical value: 168.0
+  QAOA value: 0.0
+  Constraint generation value: 0.0
+
+Running instance 12/20
+
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [0, 1, 1, 1, 1, 1, 1, 0, 1, 1]
+    Value: 457.0
+
+Running QAOA Reference Solution (with all constraints):

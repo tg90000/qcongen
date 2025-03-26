@@ -1,0 +1,6 @@
+{
+    "input_type": "mps",
+    "sample_size": 100,
+    "input_file_path": "input/set_partition_mps/problem15_60.mps",
+    "random_instance": null
+}

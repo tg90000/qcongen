@@ -1,0 +1,77 @@
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 20
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 100
+Added all constraints
+Found feasible solution: [0 0 0 1 0 0 0 0 1 0] with objective value 96.0
+Found feasible solution:
+  Solution: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+  Value: 96.0
+  QAOA solution found:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    Value: 96.0
+
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 20
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    Value: 96.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 100
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [11]
+
+Iteration 1:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [12]
+
+Iteration 2:
+  No feasible solution found in this iteration
+  Added 1 new constraints: [16]
+
+Iteration 3:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  Added 12 new constraints: [0, 2, 3, 5, 7, 8, 10, 13, 14, 15, 17, 18]
+
+Iteration 4:
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  Added 1 new constraints: [1]
+
+Iteration 5:
+Found feasible solution: [0 0 0 1 0 0 0 0 1 0] with objective value 96.0
+  Found feasible solution:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    Value: 96.0
+    Gap to reference: 0.00%
+  Constraint generation solution found:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    Value: 96.0
+
+Instance 91 results:
+  Classical value: 96.0
+  QAOA value: 96.0
+  Constraint generation value: 96.0
+
+Running instance 92/100
+
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+    Value: 17.0
+
+Running QAOA Reference Solution (with all constraints):

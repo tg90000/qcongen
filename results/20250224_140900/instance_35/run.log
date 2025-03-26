@@ -1,0 +1,98 @@
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 1000
+Added all constraints
+Found feasible solution: [1 1 0 0 1 0 0 0 1 0 0 1] with objective value 232.0
+Found feasible solution:
+  Solution: [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+  Value: 232.0
+  QAOA solution found:
+    Solution: [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+    Value: 232.0
+
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 12
+  Number of constraints (m): 40
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+    Value: 231.99999999999997
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 1000
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  Added 6 new constraints: [7, 9, 14, 25, 33, 38]
+
+Iteration 1:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  No new constraints added, lowered tau multiplier: 0.7 -> 0.6
+  No new constraints added, lowered tau multiplier: 0.6 -> 0.5
+  Added 9 new constraints: [4, 6, 13, 21, 22, 29, 31, 34, 39]
+
+Iteration 2:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  Added 6 new constraints: [16, 17, 23, 30, 32, 35]
+
+Iteration 3:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  No new constraints added, lowered tau multiplier: 0.7 -> 0.6
+  No new constraints added, lowered tau multiplier: 0.6 -> 0.5
+  Added 8 new constraints: [3, 10, 11, 15, 18, 20, 24, 27]
+
+Iteration 4:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  No new constraints added, lowered tau multiplier: 1.0 -> 0.9
+  No new constraints added, lowered tau multiplier: 0.9 -> 0.8
+  No new constraints added, lowered tau multiplier: 0.8 -> 0.7
+  No new constraints added, lowered tau multiplier: 0.7 -> 0.6
+  No new constraints added, lowered tau multiplier: 0.6 -> 0.5
+  No new constraints added, lowered tau multiplier: 0.5 -> 0.4
+  Added 11 new constraints: [0, 1, 2, 5, 8, 12, 19, 26, 28, 36, 37]
+
+Iteration 5:
+Circuit optimization did not converge
+Circuit optimization did not converge
+  No feasible solution found in this iteration
+  All constraints added, exiting
+  Constraint generation found no feasible solution
+
+Instance 35 results:
+  Classical value: 231.99999999999997
+  QAOA value: 232.0
+  Constraint generation value: 0.0
+
+Running instance 36/100
+
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1]
+    Value: 243.0
+
+Running QAOA Reference Solution (with all constraints):

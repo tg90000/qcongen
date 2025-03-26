@@ -1,0 +1,147 @@
+2025-02-24 15:44:08,542 - INFO - 
+Problem information:
+2025-02-24 15:44:08,542 - INFO -   Number of variables (n): 12
+2025-02-24 15:44:08,542 - INFO -   Number of constraints (m): 40
+2025-02-24 15:44:08,543 - DEBUG -   Density of A: 18.96%
+2025-02-24 15:44:08,543 - INFO - 
+Starting reference QAOA with parameters:
+2025-02-24 15:44:08,543 - INFO -   sample_size (total shots): 1000
+2025-02-24 15:44:08,543 - INFO - Added all constraints
+2025-02-24 15:44:08,543 - DEBUG - Generated Ising Hamiltonian
+2025-02-24 15:44:08,825 - DEBUG - Optimizing QAOA circuit...
+2025-02-24 15:44:13,160 - DEBUG - Circuit optimization successful
+2025-02-24 15:44:13,161 - DEBUG - Circuit optimization successful, final value: 2108.2872127872124
+2025-02-24 15:44:13,161 - DEBUG - Sampling from optimized circuit...
+2025-02-24 15:44:13,205 - DEBUG - Generated 759 unique samples from 1000 total measurements
+2025-02-24 15:44:13,207 - DEBUG - 
+Top 5 most frequent samples:
+2025-02-24 15:44:13,208 - DEBUG -   Rank | Count |   %   
+2025-02-24 15:44:13,208 - DEBUG -   -----|-------|-------
+2025-02-24 15:44:13,208 - DEBUG -      1 |     7 |   0.7
+2025-02-24 15:44:13,208 - DEBUG -     Sample: [0 0 1 0 1 0 1 0 1 0 1 0]
+2025-02-24 15:44:13,209 - DEBUG -      2 |     6 |   0.6
+2025-02-24 15:44:13,209 - DEBUG -     Sample: [0 1 1 0 0 0 0 1 0 0 1 1]
+2025-02-24 15:44:13,209 - DEBUG -      3 |     5 |   0.5
+2025-02-24 15:44:13,209 - DEBUG -     Sample: [1 1 0 1 1 1 1 1 0 0 0 1]
+2025-02-24 15:44:13,209 - DEBUG -      4 |     5 |   0.5
+2025-02-24 15:44:13,210 - DEBUG -     Sample: [0 0 1 0 0 1 1 0 1 0 1 0]
+2025-02-24 15:44:13,210 - DEBUG -      5 |     4 |   0.4
+2025-02-24 15:44:13,210 - DEBUG -     Sample: [0 1 1 1 1 1 0 0 1 1 0 0]
+2025-02-24 15:44:13,212 - DEBUG - Generated 759 unique samples from 1000 total measurements
+2025-02-24 15:44:13,227 - INFO - No feasible solution found
+2025-02-24 15:44:13,229 - INFO -   QAOA solver found no feasible solution
+2025-02-24 15:44:13,230 - INFO - 
+Running Constraint Generation:
+2025-02-24 15:44:13,231 - INFO - 
+Problem information:
+2025-02-24 15:44:13,232 - INFO -   Number of variables (n): 12
+2025-02-24 15:44:13,232 - INFO -   Number of constraints (m): 40
+2025-02-24 15:44:13,232 - DEBUG -   Density of A: 18.96%
+2025-02-24 15:44:13,232 - INFO - 
+Running classical reference solver:
+2025-02-24 15:44:13,247 - INFO -   Reference solution found:
+2025-02-24 15:44:13,247 - INFO -     Solution: [0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1]
+2025-02-24 15:44:13,247 - INFO -     Value: 223.0
+2025-02-24 15:44:13,248 - INFO - 
+Starting quantum constraint generation with parameters:
+2025-02-24 15:44:13,248 - INFO -   sample_size (total shots): 1000
+2025-02-24 15:44:13,248 - INFO -   tau: 0.1
+2025-02-24 15:44:13,248 - INFO -   max_iters: 1000
+2025-02-24 15:44:13,249 - INFO - 
+Iteration 0:
+2025-02-24 15:44:13,249 - DEBUG - Generated Ising Hamiltonian
+2025-02-24 15:44:13,460 - DEBUG - Optimizing QAOA circuit...
+2025-02-24 15:44:15,575 - DEBUG - Circuit optimization successful
+2025-02-24 15:44:15,576 - DEBUG - Circuit optimization successful, final value: -210.29170829170823
+2025-02-24 15:44:15,576 - DEBUG - Sampling from optimized circuit...
+2025-02-24 15:44:15,600 - DEBUG - Generated 498 unique samples from 1000 total measurements
+2025-02-24 15:44:15,600 - DEBUG - 
+Top 5 most frequent samples:
+2025-02-24 15:44:15,600 - DEBUG -   Rank | Count |   %   
+2025-02-24 15:44:15,601 - DEBUG -   -----|-------|-------
+2025-02-24 15:44:15,601 - DEBUG -      1 |    20 |   2.0
+2025-02-24 15:44:15,601 - DEBUG -     Sample: [1 1 1 1 0 1 1 1 1 0 0 0]
+2025-02-24 15:44:15,601 - DEBUG -      2 |    19 |   1.9
+2025-02-24 15:44:15,601 - DEBUG -     Sample: [1 1 1 1 0 0 1 1 1 0 0 0]
+2025-02-24 15:44:15,601 - DEBUG -      3 |    16 |   1.6
+2025-02-24 15:44:15,602 - DEBUG -     Sample: [1 1 1 1 0 1 1 1 1 0 0 1]
+2025-02-24 15:44:15,602 - DEBUG -      4 |    15 |   1.5
+2025-02-24 15:44:15,602 - DEBUG -     Sample: [1 0 1 1 0 1 1 0 1 0 0 0]
+2025-02-24 15:44:15,602 - DEBUG -      5 |    14 |   1.4
+2025-02-24 15:44:15,602 - DEBUG -     Sample: [1 1 1 1 0 1 1 0 1 0 0 1]
+2025-02-24 15:44:15,604 - DEBUG - Generated 498 unique samples from 1000 total measurements
+2025-02-24 15:44:15,613 - INFO -   No feasible solution found in this iteration
+2025-02-24 15:44:15,614 - INFO -   Added 2 new constraints: [0, 26]
+2025-02-24 15:44:15,614 - INFO - 
+Iteration 1:
+2025-02-24 15:44:15,614 - DEBUG - Generated Ising Hamiltonian
+2025-02-24 15:44:15,827 - DEBUG - Optimizing QAOA circuit...
+2025-02-24 15:44:18,369 - DEBUG - Circuit optimization successful
+2025-02-24 15:44:18,369 - DEBUG - Circuit optimization successful, final value: -1055.5614385614385
+2025-02-24 15:44:18,369 - DEBUG - Sampling from optimized circuit...
+2025-02-24 15:44:18,391 - DEBUG - Generated 234 unique samples from 1000 total measurements
+2025-02-24 15:44:18,391 - DEBUG - 
+Top 5 most frequent samples:
+2025-02-24 15:44:18,391 - DEBUG -   Rank | Count |   %   
+2025-02-24 15:44:18,391 - DEBUG -   -----|-------|-------
+2025-02-24 15:44:18,392 - DEBUG -      1 |   125 |  12.5
+2025-02-24 15:44:18,392 - DEBUG -     Sample: [0 1 0 1 1 1 1 1 1 1 1 0]
+2025-02-24 15:44:18,392 - DEBUG -      2 |    58 |   5.8
+2025-02-24 15:44:18,392 - DEBUG -     Sample: [1 1 0 1 1 1 1 1 1 1 1 0]
+2025-02-24 15:44:18,392 - DEBUG -      3 |    48 |   4.8
+2025-02-24 15:44:18,393 - DEBUG -     Sample: [0 1 0 0 1 0 1 1 1 1 1 0]
+2025-02-24 15:44:18,393 - DEBUG -      4 |    34 |   3.4
+2025-02-24 15:44:18,393 - DEBUG -     Sample: [0 1 0 1 1 0 1 1 1 1 1 0]
+2025-02-24 15:44:18,393 - DEBUG -      5 |    33 |   3.3
+2025-02-24 15:44:18,393 - DEBUG -     Sample: [0 1 1 0 1 0 1 1 1 1 1 0]
+2025-02-24 15:44:18,394 - DEBUG - Generated 234 unique samples from 1000 total measurements
+2025-02-24 15:44:18,399 - INFO -   No feasible solution found in this iteration
+2025-02-24 15:44:18,399 - INFO -   Added 2 new constraints: [18, 21]
+2025-02-24 15:44:18,400 - INFO - 
+Iteration 2:
+2025-02-24 15:44:18,400 - DEBUG - Generated Ising Hamiltonian
+2025-02-24 15:44:18,650 - DEBUG - Optimizing QAOA circuit...
+2025-02-24 15:44:21,087 - DEBUG - Circuit optimization successful
+2025-02-24 15:44:21,087 - DEBUG - Circuit optimization successful, final value: 1104.7532467532449
+2025-02-24 15:44:21,087 - DEBUG - Sampling from optimized circuit...
+2025-02-24 15:44:21,122 - DEBUG - Generated 490 unique samples from 1000 total measurements
+2025-02-24 15:44:21,123 - DEBUG - 
+Top 5 most frequent samples:
+2025-02-24 15:44:21,123 - DEBUG -   Rank | Count |   %   
+2025-02-24 15:44:21,124 - DEBUG -   -----|-------|-------
+2025-02-24 15:44:21,124 - DEBUG -      1 |    20 |   2.0
+2025-02-24 15:44:21,124 - DEBUG -     Sample: [0 1 1 0 1 0 0 0 0 0 0 0]
+2025-02-24 15:44:21,124 - DEBUG -      2 |    19 |   1.9
+2025-02-24 15:44:21,125 - DEBUG -     Sample: [0 1 1 0 1 0 0 0 0 1 0 0]
+2025-02-24 15:44:21,125 - DEBUG -      3 |    12 |   1.2
+2025-02-24 15:44:21,125 - DEBUG -     Sample: [0 0 1 0 1 0 0 0 0 1 0 0]
+2025-02-24 15:44:21,125 - DEBUG -      4 |    12 |   1.2
+2025-02-24 15:44:21,126 - DEBUG -     Sample: [0 1 1 0 1 1 0 0 0 1 0 0]
+2025-02-24 15:44:21,126 - DEBUG -      5 |    12 |   1.2
+2025-02-24 15:44:21,126 - DEBUG -     Sample: [0 0 1 1 1 0 0 0 0 1 0 0]
+2025-02-24 15:44:21,127 - DEBUG - Generated 490 unique samples from 1000 total measurements
+2025-02-24 15:44:21,137 - INFO - Found feasible solution: [1 1 1 0 0 0 0 0 0 1 0 0] with objective value 300.0
+2025-02-24 15:44:21,139 - INFO -   Found feasible solution:
+2025-02-24 15:44:21,139 - INFO -     Solution: [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+2025-02-24 15:44:21,139 - INFO -     Value: 300.0
+2025-02-24 15:44:21,140 - INFO -     Gap to reference: 34.53%
+2025-02-24 15:44:21,140 - INFO -   Constraint generation solution found:
+2025-02-24 15:44:21,141 - INFO -     Solution: [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+2025-02-24 15:44:21,141 - INFO -     Value: 300.0
+2025-02-24 15:44:21,141 - INFO - 
+Instance 74 results:
+2025-02-24 15:44:21,141 - INFO -   Classical value: 223.0
+2025-02-24 15:44:21,142 - INFO -   QAOA value: 0.0
+2025-02-24 15:44:21,142 - INFO -   Constraint generation value: 300.0
+2025-02-24 15:44:21,142 - INFO - 
+Running instance 75/100
+2025-02-24 15:44:21,145 - INFO - 
+Running Classical Reference Solver (SCIP):
+2025-02-24 15:44:21,146 - DEBUG - Problem dimensions: 40 constraints, 12 variables
+2025-02-24 15:44:21,146 - DEBUG - Row names: ['ELEM1', 'ELEM2', 'ELEM3', 'ELEM4', 'ELEM5', 'ELEM6', 'ELEM7', 'ELEM8', 'ELEM9', 'ELEM10', 'ELEM11', 'ELEM12', 'ELEM13', 'ELEM14', 'ELEM15', 'ELEM16', 'ELEM17', 'ELEM18', 'ELEM19', 'ELEM20', 'ELEM21', 'ELEM22', 'ELEM23', 'ELEM24', 'ELEM25', 'ELEM26', 'ELEM27', 'ELEM28', 'ELEM29', 'ELEM30', 'ELEM31', 'ELEM32', 'ELEM33', 'ELEM34', 'ELEM35', 'ELEM36', 'ELEM37', 'ELEM38', 'ELEM39', 'ELEM40']
+2025-02-24 15:44:21,147 - DEBUG - RHS values: {'ELEM1': 1.0, 'ELEM2': 1.0, 'ELEM3': 1.0, 'ELEM4': 1.0, 'ELEM5': 1.0, 'ELEM6': 1.0, 'ELEM7': 1.0, 'ELEM8': 1.0, 'ELEM9': 1.0, 'ELEM10': 1.0, 'ELEM11': 1.0, 'ELEM12': 1.0, 'ELEM13': 1.0, 'ELEM14': 1.0, 'ELEM15': 1.0, 'ELEM16': 1.0, 'ELEM17': 1.0, 'ELEM18': 1.0, 'ELEM19': 1.0, 'ELEM20': 1.0, 'ELEM21': 1.0, 'ELEM22': 1.0, 'ELEM23': 1.0, 'ELEM24': 1.0, 'ELEM25': 1.0, 'ELEM26': 1.0, 'ELEM27': 1.0, 'ELEM28': 1.0, 'ELEM29': 1.0, 'ELEM30': 1.0, 'ELEM31': 1.0, 'ELEM32': 1.0, 'ELEM33': 1.0, 'ELEM34': 1.0, 'ELEM35': 1.0, 'ELEM36': 1.0, 'ELEM37': 1.0, 'ELEM38': 1.0, 'ELEM39': 1.0, 'ELEM40': 1.0}
+2025-02-24 15:44:21,159 - INFO -   Reference solution found:
+2025-02-24 15:44:21,159 - INFO -     Solution: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+2025-02-24 15:44:21,159 - INFO -     Value: 258.0
+2025-02-24 15:44:21,159 - INFO - 
+Running QAOA Reference Solution (with all constraints):

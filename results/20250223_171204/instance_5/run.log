@@ -1,0 +1,105 @@
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Starting reference QAOA with parameters:
+  sample_size (total shots): 200
+Added all constraints
+Found feasible solution: [0 0 0 1 0 1 1 1 1 1] with objective value 448.0
+Found feasible solution:
+  Solution: [0, 0, 0, 1, 0, 1, 1, 1, 1, 1]
+  Value: 448.0
+
+=====
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+    Value: 257.0
+
+=====
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+    Value: 257.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 200
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+Found feasible solution: [1 1 1 0 1 0 0 0 0 0] with objective value 257.0
+  Found feasible solution:
+    Solution: [1, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+    Value: 257.0
+    Gap to reference: 0.00%
+
+---
+Solution Comparison:
+Gap to classical reference: 0.00%
+Gap to QAOA reference: -42.63%
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+=====
+Running Classical Reference Solver (SCIP):
+  Reference solution found:
+    Solution: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+    Value: 105.0
+
+=====
+Running Constraint Generation:
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Running classical reference solver:
+  Reference solution found:
+    Solution: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+    Value: 105.0
+
+Starting quantum constraint generation with parameters:
+  sample_size (total shots): 200
+  tau: 0.1
+  max_iters: 1000
+
+Iteration 0:
+Found feasible solution: [1 0 0 0 1 0 0 1 0 0] with objective value 105.0
+  Found feasible solution:
+    Solution: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+    Value: 105.0
+    Gap to reference: 0.00%
+
+---
+Solution Comparison:
+Gap to classical reference: 0.00%
+
+Instance 5 results:
+  Classical value: 207.0
+  QAOA value: 257.0
+  Constraint generation value: 105.0
+
+Running instance 6/100
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+Running Classical Reference Solver (SCIP):
+
+Problem information:
+  Number of variables (n): 10
+  Number of constraints (m): 30
+
+=====
+Running QAOA Reference Solution (with all constraints):
