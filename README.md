@@ -1,4 +1,4 @@
-# QConGen
+# A Quantum Constraint Generation Framework
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Ruff](https://img.shields.io/badge/ruff-0.9.4-red.svg)](https://github.com/astral-sh/ruff)
