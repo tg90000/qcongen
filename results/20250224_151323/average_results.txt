@@ -1,2 +1,0 @@
-Average QAOA Performance: 27.0%
-Average Constraint Generation Performance: 1.6%
