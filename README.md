@@ -1,8 +1,6 @@
-# QConGen
+# A Quantum Constraint Generation Framework
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![NumPy](https://img.shields.io/badge/numpy-2.2.2-green.svg)](https://numpy.org/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Ruff](https://img.shields.io/badge/ruff-0.9.4-red.svg)](https://github.com/astral-sh/ruff)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -260,7 +258,3 @@ You can also generate random instances with custom parameters using the configur
 | `--ref`             | False                | Use classical reference solver (OR-Tools) instead of quantum algorithm |
 | `--compare-ref`     | True                 | Compare with QAOA reference solution using all constraints |
 
-### Output Structure
-
-For single runs:
-```
